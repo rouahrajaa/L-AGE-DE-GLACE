@@ -177,7 +177,7 @@ function addToCart(e) {
             existingCartItem.pcs = parseInt(existingCartItem.pcs) + parseInt(pcs);
             existingCartItem.amount = existingCartItem.pcs * item.price;
             showToast(
-                  `${pcs} more ${item.name} ice cream/s successfully added to the cart!`
+                  `${pcs} more ${item.name} Ajouté au panier avec succès !`
             );
       } else {
             cartItems.push({
@@ -186,9 +186,9 @@ function addToCart(e) {
                   amount: amount,
             });
             showToast(
-                  `${pcs} ${item.name} ice cream/s successfully added to the cart!`
+                  `${pcs} ${item.name} Ajouté au panier avec succès !`
             );
-            e.target.textContent = "Already in the cart - Add again?";
+            e.target.textContent = "Déjà dans le panier - Ajouter à nouveau?";
       }
       localStorage.setItem(LOCAL_STORAGE_CART_KEY, JSON.stringify(cartItems));
 
