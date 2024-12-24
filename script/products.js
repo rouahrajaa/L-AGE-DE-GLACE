@@ -54,7 +54,7 @@ function displayProducts(products) {
               </div>
               <div class="name-price">
                   <div class="name">${product.name}</div>
-                  <div class="price">$${product.price}</div>
+                  <div class="price">€${product.price}</div>
               </div>
               <div class="description">${product.description}</div>
               <div class="qty">
