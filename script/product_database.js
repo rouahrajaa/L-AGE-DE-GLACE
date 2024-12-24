@@ -1,12 +1,12 @@
 const products_list = [
     {
         id: "p001",
-        name: "Chocolate Chip Cookie",
+        name: "test",
         flavor_id: "f001",
         off: 5,
         price: 35,
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, ad.",
-        image: "images/chocolate.jpg",
+        image: "images/hero-grid1.jpg",
         rating: 4
     },
     {
@@ -41,12 +41,12 @@ const products_list = [
     },
     {
         id: "p005",
-        name: "Sea Salt Caramel Gelato",
+        name: "test2",
         flavor_id: "f002",
         off: 8,
         price: 50,
         description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, ad.",
-        image: "images/strawberry.jpg",
+        image: "images/hero-grid2.jpg",
         rating: 4
     },
     {
